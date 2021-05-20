@@ -4,6 +4,7 @@ title: "C 수행평가"
 toc: true
 toc_sticky: true
 toc_label: "main table of contents"
+categories: "형성평가"
 ---
 
 ### 01. 사주보기
