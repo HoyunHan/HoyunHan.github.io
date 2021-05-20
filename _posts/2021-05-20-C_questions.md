@@ -8,7 +8,7 @@ categories: "형성평가"
 ---
 
 ### 01. 사주보기
-![c 96p] (/assets/images/c 96p.jpg)
+![c 96p ] (/assets/images/c 96p .jpg)
 ~~~c
   #include <stdio.h>
 
