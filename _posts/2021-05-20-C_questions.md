@@ -24,7 +24,7 @@ return 0;
 }
 ~~~
 
-###02. 터널 통과
+### 02. 터널 통과
 ![c 98p] (/assets/images/c 98p.jpg)
   ~~~c
   #include <stdio.h>
