@@ -8,7 +8,7 @@ categories: "형성평가"
 ---
 
 ### 01. 사주보기 
-![c_96p] (/assets/images/c_96p.jpg)
+![c_96p](/assets/images/c_96p.jpg)
 ~~~c
   #include <stdio.h>
 
@@ -26,7 +26,7 @@ return 0;
 ~~~
 
 ### 02. 터널 통과
-![c_98p] (/assets/images/c_98p.jpg)
+![c_98p](/assets/images/c_98p.jpg)
   ~~~c
   #include <stdio.h>
 
