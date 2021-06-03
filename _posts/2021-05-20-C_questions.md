@@ -47,7 +47,7 @@ return 0;
 ~~~
 
 ### 03. 월별 날짜수
-![c_100p](/assets/images/c_100p.png)
+![c_100p](/assets/images/c_100p.PNG)
 ~~~c
   #include <stdio.h>
 
@@ -72,7 +72,7 @@ int main(void) {
 ~~~
 
 ### 04. 30분 전 시간
-![c_102p](/assets/images/c_102p.png)
+![c_102p](/assets/images/c_102p.PNG)
 ~~~c
   #include <stdio.h>
 
@@ -94,7 +94,7 @@ int main(void) {
 ~~~
 
 ### 05. 도어락
-![doorlock](/assets/images/doorlock.png)
+![doorlock](/assets/images/doorlock.PNG)
 ~~~c
   #include <stdio.h>
 
@@ -132,7 +132,7 @@ printf("디리릭!디리릭!");
 ~~~
 
 ### 06. 가위바위보
-![roscipa](/assets/images/roscipa.png)
+![roscipa](/assets/images/roscipa.PNG)
 ~~~c
   #include <stdio.h>
 
