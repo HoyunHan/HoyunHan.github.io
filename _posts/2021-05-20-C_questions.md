@@ -173,3 +173,62 @@ int main(void) {
   return 0;
 }
 ~~~
+
+### 08. 보안 코드
+~~~c
+#include <stdio.h>
+
+int main(void) {
+char name[11];
+int age;
+char code;
+float secure;
+
+printf("name: ");
+scanf("%s", name);
+printf("age: ");
+scanf("%d", &age);
+printf("code: ");
+scanf(" %c", &code);
+printf("secure: ");
+scanf("%f", &secure);
+
+printf("************************\n");
+printf("name: %s\n", name);
+printf("age: %d\n", age);
+printf("code: %c\n", code);
+printf("secure: %.3f\n", secure);
+printf("************************\n");
+
+  return 0;
+}
+~~~
+
+### 09. 수위치케이수
+~~~c
+#include <stdio.h>
+
+int age;
+  int child, young, mid, old;
+  child=young=mid=old=0;
+  printf("나이를 입력하시오: ");
+  scanf("%d", &age);
+  age=age/10;
+
+  switch(age){
+    case 0: 
+    case 1: child++;
+    break;
+    case 2: 
+    case 3: young++;
+    break;
+    case 4: 
+    case 5: mid++;
+    break;
+    default: old++;
+  }
+  printf("child=%d, young=%d, mid=%d, old=%d\n", child, young, mid, old);
+
+  return 0;
+}
+~~~
