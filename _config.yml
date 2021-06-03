@@ -12,13 +12,13 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "mint" # "default", "aqua", "contrast", "dark", "dirt", "neon", "air", "plum", "sunrise"
+minimal_mistakes_skin    : "sunrise" # "default", "aqua", "contrast", "dark", "dirt", "neon", "air", "mint", "plum"
 
 # Site Settings
 locale                   : "ko"
 title                    : "C Programming"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "by the C, of the C, for the C"
 name                     : "Hoyun Han"
 description              : "C for system programming"
 url                      : # the base hostname & protocol for your site e.g. "https://HoyunHan.github.io"
@@ -39,9 +39,9 @@ comments:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    colorscheme          : # "dark" (default), "light"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
+    theme                : # "github-dark" (default), "github-light"
     issue_term           : # "pathname" (default)
   staticman:
     branch               : # "master"
