@@ -150,3 +150,27 @@ int main(void) {
 }
 ~~~
 
+
+### 07. 점수 계산
+![roscipa](/assets/images/roscipa.PNG)
+~~~c
+  #include <stdio.h>
+
+int main(void) {
+  float a, b, c;
+  int d, e, f;
+  //float score;
+
+  printf("***과목별 점수 계산 프로그램***\n");
+  printf("중간고사 반영비율, 받은 점수를 입력하시오\n");
+  scanf("%f%d", &a, &d); 
+  printf("기말고사 반영비율, 받은 점수를 입력하시오\n");
+  scanf("%f%d", &b, &e); 
+  printf("수행평가 반영비율, 받은 점수를 입력하시오\n");
+  scanf("%f%d", &c, &f); 
+  //score=a*d+b*e+c*f;
+  printf("점수는 %.1f입니다", a*d+b*e+c*f);//계산과정 대신 score
+
+  return 0;
+}
+~~~
