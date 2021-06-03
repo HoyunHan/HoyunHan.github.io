@@ -152,7 +152,6 @@ int main(void) {
 
 
 ### 07. 점수 계산
-![roscipa](/assets/images/roscipa.PNG)
 ~~~c
   #include <stdio.h>
 
