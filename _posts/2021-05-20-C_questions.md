@@ -208,6 +208,7 @@ printf("************************\n");
 ~~~c
 #include <stdio.h>
 
+int main(void) {
 int age;
   int child, young, mid, old;
   child=young=mid=old=0;
