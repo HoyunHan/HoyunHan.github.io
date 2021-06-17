@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "개념"
+  - title: "Categories"
     url: /categories/
-  - title: "연도"
+  - title: "Years"
     url: /posts/
-  - title: "소개"
+  - title: "Intro"
     url: /about/
   # - title: "Sample Collections"
   #   url: /collection-archive/
